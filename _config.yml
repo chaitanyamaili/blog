@@ -1,0 +1,22 @@
+# Setup
+title:               Chaitanya Maili
+tagline:             'A software developer from Bangalore, India.'
+description:         'A software developer from Bangalore, India.'
+url:                 https://chaitanyamaili.in
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Chaitanya Maili
+  url:               https://chaitanyamaili.in
+  email:             chaitanya.maili@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: UA-146052-15
