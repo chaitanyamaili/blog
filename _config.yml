@@ -3,7 +3,7 @@ title:               Chaitanya Maili
 tagline:             'A software developer from Bangalore, India.'
 description:         'A software developer from Bangalore, India.'
 url:                 https://chaitanyamaili.in
-baseurl:             ''
+baseurl:             '/blog'
 paginate:            5
 permalink:           pretty
 
