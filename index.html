@@ -4,19 +4,20 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+  <div>Posts by Year</div>
+  <ul>
+    {% for post in paginator.posts %}
+    <div class="post">
+      <li>
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+        {{ post.excerpt }}
+      </li>
+    </div>
+    {% endfor %}
+  </ul>
 </div>
 
 <div class="pagination">
