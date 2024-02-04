@@ -8,4 +8,5 @@ nav_order: 1
 {: .fs-9 }
 
  - [SQL - Data Standards](sql-standard)
+ - [Plsql - Cheatsheet](postgresql-cheatsheet)
  - [Terraform - import](terraform-import)
